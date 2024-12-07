@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Quadrado grande */
+        .container {
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+            position: relative; /* Para centralizar o conteúdo interno */
+        }
+
+        /* Quadrado menor */
+        .content {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            position: absolute; /* Movemos o quadrado menor */
+            top: 50%; /* Mover para o meio verticalmente */
+            left: 50%; /* Mover para o meio horizontalmente */
+            transform: translate(-50%, -50%); /* Ajustar para ficar centralizado de verdade */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content"></div>
+    </div>
+
+</body>
+</html>
