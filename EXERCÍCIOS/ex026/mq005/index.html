@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+                <li><a href="">Opção 6</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ea libero cumque, aut ab aliquam autem
+                aspernatur a qui consequatur nam? Nisi obcaecati, dolores corrupti nobis soluta consequatur neque sed?
+            </p>
+            <p>Officia iste maxime neque, delectus eveniet veritatis animi architecto ipsum quos accusantium rerum magni
+                voluptatem ipsa amet facilis consectetur odio, similique hic nam? Inventore tenetur alias quam,
+                doloremque ipsam odio?</p>
+            <p>Fuga natus explicabo earum nostrum, nobis illum ex minus beatae doloribus magni eaque ipsam repellat
+                eligendi quas mollitia ea corrupti ipsa voluptas. Commodi iste quos dicta obcaecati dolores temporibus
+                ut?</p>
+            <p>Quas eaque modi pariatur ad qui rerum tenetur perferendis sapiente neque distinctio assumenda iste
+                nostrum, reprehenderit quia error, quod est quasi sunt illum fugit tempora consequuntur veniam
+                veritatis. Nam, nobis.</p>
+            <p>Consequuntur dolor impedit, suscipit omnis sapiente a excepturi explicabo voluptatibus quas fugiat
+                reiciendis totam ipsam blanditiis necessitatibus eaque perspiciatis alias qui tempora. Quisquam
+                perspiciatis harum odio at illum! Assumenda, numquam.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           }
+           else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+
+</body>
+
+</html>
